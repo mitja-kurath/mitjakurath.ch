@@ -12,8 +12,8 @@ export class ProjectService {
       description: 'A modern and responsive personal portfolio website showcasing skills and projects.',
       imageUrl: 'assets/images/portfolio.png',
       technologies: ['Angular', 'TypeScript', 'SASS', 'Netlify'],
-      demoUrl: 'https://portfolio.example.com',
-      githubUrl: 'https://github.com/username/portfolio',
+      demoUrl: 'https://www.mitjakurath.ch',
+      githubUrl: 'https://github.com/mitja-kurath/mitjakurath.ch',
       featured: false
     }
   ];
