@@ -16,13 +16,9 @@ export class ProjectsComponent implements OnInit {
   filteredProjects: Project[] = [];
   activeFilter = 'all';
 
-  constructor() {
-    this.projects = this.projectService.getProjects();
-    this.filteredProjects = [...this.projects];
-  }
-
   ngOnInit(): void {
     this.projects = this.projectService.getProjects();
+    console.log(this.projects);
     this.filteredProjects = [...this.projects];
   }
 

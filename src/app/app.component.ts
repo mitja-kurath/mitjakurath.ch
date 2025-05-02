@@ -8,7 +8,6 @@ import { HeroComponent } from './components/hero/hero.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ProjectsComponent } from './components/projects/projects.component';
-import { SkillsComponent } from './components/skills/skills.component';
 
 @Component({
   selector: 'app-root',
@@ -16,7 +15,6 @@ import { SkillsComponent } from './components/skills/skills.component';
     HeroComponent,
     AboutComponent,
     ProjectsComponent,
-    SkillsComponent,
     ContactComponent,
     FooterComponent],
   templateUrl: './app.component.html',
