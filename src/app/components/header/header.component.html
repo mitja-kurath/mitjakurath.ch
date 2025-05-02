@@ -1,0 +1,34 @@
+<header class="header" [class.scrolled]="isScrolled">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="#home">
+          <img 
+            [src]="themeService.isDarkMode() ? 'assets/logo-black.svg' : 'assets/logo-white.svg'" 
+            alt="Mitja Kurath Logo" 
+            height="40" 
+          />
+        </a>
+      </div>
+      
+      <button class="mobile-menu-btn" (click)="toggleMobileMenu()" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu" [class.active]="isMobileMenuOpen">
+        <ul>
+          <li><a href="#home" (click)="navigateTo('home')" [class.active]="activeSection === 'home'">Home</a></li>
+          <li><a href="#about" (click)="navigateTo('about')" [class.active]="activeSection === 'about'">About</a></li>
+          <li><a href="#skills" (click)="navigateTo('skills')" [class.active]="activeSection === 'skills'">Skills</a></li>
+          <li><a href="#projects" (click)="navigateTo('projects')" [class.active]="activeSection === 'projects'">Projects</a></li>
+          <li><a href="#contact" (click)="navigateTo('contact')" [class.active]="activeSection === 'contact'">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <button class="theme-toggle" (click)="toggleTheme()" aria-label="Toggle dark mode">
+        <span class="sun" [class.active]="!themeService.isDarkMode()">☀️</span>
+        <span class="moon" [class.active]="themeService.isDarkMode()">🌙</span>
+      </button>
+    </div>
+  </header>

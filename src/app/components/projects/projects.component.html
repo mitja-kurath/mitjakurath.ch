@@ -1,0 +1,28 @@
+<section class="projects-section">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">My Projects</h2>
+      
+      <div class="projects-filter animate-on-scroll">
+        <button 
+          class="filter-btn" 
+          [class.active]="activeFilter === 'all'"
+          (click)="setFilter('all')"
+        >
+          All
+        </button>
+        <button 
+          class="filter-btn" 
+          [class.active]="activeFilter === 'featured'"
+          (click)="setFilter('featured')"
+        >
+          Featured
+        </button>
+      </div>
+      
+      <div class="projects-grid">
+        @for (project of filteredProjects; track project.id) {
+          <app-project-card [project]="project" class="animate-on-scroll"></app-project-card>
+        }
+      </div>
+    </div>
+  </section>

@@ -1,0 +1,16 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+	<title>New Project</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #ffffff } 
+		.s1 { fill: #000000 } 
+		.t2 { font-size: 45px;fill: #000000;font-weight: 700;font-family: "Montserrat-Bold", "Montserrat" } 
+	</style>
+	<path id="Background" fill-rule="evenodd" class="s0" d="m844-55v910h-888v-910z"/>
+	<path id="MK" class="s1" d="m316.7 543.6h-9.3l-104.8-286.6h36.2l87.3 235.9 81.6-235.9h8zm-146.7-286.6h36.4v275.5h27.9v7.3h-62.4v-7.3h26.7v-268.1h-28.6zm243.6 0h62.2v7.3h-26.4v268.1h26.4v7.4h-92.6v-7.4h30.4zm17.4 201h-10.8l143.7-193.6h-40.7v-7.4h90.5v7.4h-39.1zm60.2 81.8h-107.5v-7.3h33.9v-268.1h-33.9v-7.4h107.5v7.4h-37.6v268.1h37.6zm139.5 0h-116.9v-7.4h38.1l-79.4-140.8 23.4-29.3 101 170.1h33.8z"/>
+	<path id="Shape 1" fill-rule="evenodd" class="s0" d="m626.4 361v78h-453.4v-78z"/>
+	<text id="MITJA KURATH" style="transform: matrix(1.275,0,0,1.093,174,417)" >
+		<tspan x="0" y="0" class="t2">M</tspan><tspan  y="0" class="t2">I</tspan><tspan  y="0" class="t2">T</tspan><tspan  y="0" class="t2">J</tspan><tspan  y="0" class="t2">A</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">K</tspan><tspan  y="0" class="t2">U</tspan><tspan  y="0" class="t2">R</tspan><tspan  y="0" class="t2">A</tspan><tspan  y="0" class="t2">T</tspan><tspan  y="0" class="t2">H</tspan><tspan  y="0" class="t2">
+</tspan>
+	</text>
+</svg>
