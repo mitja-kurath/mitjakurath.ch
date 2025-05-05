@@ -14,7 +14,7 @@ export class ProjectService {
       technologies: ['Angular', 'TypeScript', 'SASS', 'Vercel'],
       demoUrl: 'https://www.mitjakurath.ch',
       githubUrl: 'https://github.com/mitja-kurath/mitjakurath.ch',
-      featured: false
+      featured: true
     }
   ];
 
